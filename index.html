@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karsanj</title>
+    <link rel="stylesheet" href="Assets/Font-Awesome/css/all.min.css" />
+    <script src="Assets/Font-Awesome/js/all.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="scss/main.css" />
+    <script src="node_modules/chart.js/dist/chart.umd.js"></script>
+</head>
+
+<body>
+    <!--navbar desktop version start  -->
+    <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark d-md-block d-lg-block d-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">John Doe [ Grade 10th ]</a
+        >
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="w-100">
+            <ul class="navbar-nav d-flex justify-content-evenly w-50">
+            
+            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Online Classes</a
+            >
+            <ul class="dropdown-menu">
+                <li><h5 class="dropdown-header">Next class</h5></li>
+                <li><a class="dropdown-item" href="#">Math</a></li>
+            <li>
+                <hr class="dropdown-divider"></hr>
+            </li>
+            <li>
+                <h5 class="dropdown-header">Past classes</h5>
+            </li>
+            <li><a class="dropdown-item" href="#"> Art</a></li>
+            <li><a class="dropdown-item" href="#">History</a></li>
+            <li>
+                <hr class="dropdown-divider"></hr>
+            </li>
+            <li><a class="dropdown-item" href="#class-timetable">All Classes</a></li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Exams</a
+            >
+            <ul class="dropdown-menu dropdown">
+                <li><h5 class="dropdown-header">Next Exams</h5></li>
+                <li><a class="dropdown-item" href="#">Geography</a></li>
+            <li>
+                <hr class="dropdown-divider"></hr>
+            </li>
+            <li>
+                <h5 class="dropdown-header">Past Exams</h5>
+            </li>
+            <li><a class="dropdown-item" href="#"> Biology</a></li>
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li>
+                <hr class="dropdown-divider"></hr>
+            </li>
+            <li><a class="dropdown-item" href="#">All Exams</a></li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Accessibilities</a
+            >
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Log files </a></li>
+            <li><a class="dropdown-item" href="#">Archive files</a></li>
+            <li><a class="dropdown-item" href="#">Records</a></li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Home work</a
+            >
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Upload</a></li>
+            <li><a class="dropdown-item" href="#">Assignment table</a></li>
+            <li><a class="dropdown-item" href="#study-chart-section">Study chart</a></li>
+            </ul>
+
+            </ul>
+        </div>
+
+        <a href="#" class=" bg-danger btn col-12 col-lg-1 col-sm-1 col-md-1 me-3 mt-2 mt-lg-0 mt-sm-0 mt-md-0" data-bs-toggle="modal" data-bs-target="#Exit-btn">Exit</a>
+        <button class="btn bg-success col-12 col-lg-1 col-sm-1 col-md-1 mt-2 mt-lg-0 mt-sm-0 mt-md-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header-profile">
+            Profile
+        </button>
+
+        </div>
+        </div>
+    </nav>
+    <!-- navbar desktop version end  -->
+
+    <!-- navbar mobile version start -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark d-bock d-lg-none d-md-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">John Doe [ Grade 10th ]</a
+        >
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="w-100">
+            <ul class="navbar-nav d-flex justify-content-evenly w-50">
+            
+            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">Online Classes</a
+            ></li>
+            <li class="nav-item ">
+                <a class="nav-link " href="#">Exams</a
+            ></li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#" >Accessibilities</a
+            ></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Home work</a
+            ></li>
+
+            </ul>
+        </div>
+
+        <a href="#" class=" bg-danger btn col-12 col-lg-1 col-sm-1 col-md-1 me-3 mt-2 mt-lg-0 mt-sm-0 mt-md-0" data-bs-toggle="modal" data-bs-target="#Exit-btn">Exit</a>
+                <button class="btn bg-success col-12 col-lg-1 col-sm-1 col-md-1 mt-2 mt-lg-0 mt-sm-0 mt-md-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header-profile">
+            Profile
+        </button>
+
+        </div>
+        </div>
+    </nav>
+
+    <!-- navbar mobile version end -->
+
+
+
+
+
+    <!--- Study chart start-->
+
+    <section id="study-chart-section" class="mt-5">
+
+        <div class="container">
+            <div class="row ">
+
+                <div class="col-12 bg-dark pt-1 py-2 rounded mx-auto">
+                    <p class="h4 m-2 text-white">Study chart : on top as always</p>
+                    <div class="col-12 d-flex flex-wrap">
+                        <div class="col-12">
+                            <div class="bg-white rounded-top col-12">
+                                <canvas id="study-chart"></canvas>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-12 bg-white p-2 rounded-bottom ">
+                            <div class="btn-group w-100">
+                                <button class="btn bg-warning col-xl-2 col-lg-2 col-ms-2 col-md-2 col-12">Edit</button>
+                                <button class="btn bg-success  col-8 d-none d-md-block d-sm-block d-xl-block" data-bs-toggle="modal" data-bs-target="#study-chart-export-modal">Export</button></div>
+                            <button class="btn bg-success mt-2  col-12 d-block d-md-none d-sm-none d-xl-none" data-bs-toggle="modal" data-bs-target="#study-chart-export-modal">Export</button>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <!--- Study chart end-->
+
+    <!-- Class timetable start -->
+
+    <section id="class-timetable" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-dark rounded pb-2">
+                    <p class="h4 m-2 text-white">Class timetable : be on time</p>
+
+                    <div class="col-12">
+
+                        <table class="table table-bordered table-hover table-responsive">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>Teacher</th>
+                                    <th>Day</th>
+                                    <th>Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Art</td>
+                                    <td>Ms. Rachel Thom</td>
+                                    <td>Monday</td>
+                                    <td>6:14 AM</td>
+
+                                </tr>
+                                <tr>
+                                    <td>Math</td>
+                                    <td>Mr. Ethan Patel</td>
+                                    <td>Tuesday</td>
+                                    <td>7:42 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Geography</td>
+                                    <td>Ms. Sophia Rodrig</td>
+                                    <td>Wednesday</td>
+                                    <td>5:18 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>Physic</td>
+                                    <td>Mr. Liam Chen</td>
+                                    <td>Thursday</td>
+                                    <td>8:05 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>history</td>
+                                    <td>Ms. Ava Lee</td>
+                                    <td>Friday</td>
+                                    <td>6:50 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>technology</td>
+                                    <td>Ms. Emily Patel</td>
+                                    <td>Saturday</td>
+                                    <td>9:21 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>graphic design</td>
+                                    <td>Mr. Julian Sanchez</td>
+                                    <td>Sunday</td>
+                                    <td>7:03 AM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button class="btn btn-primary col-12" data-bs-toggle="modal" data-bs-target="#class-timetable-export-modal">Export</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Class timetable end -->
+
+
+
+    <!--homework section start Desktop-->
+    <section id="homework-section" class="mt-5">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-dark rounded pb-2 d-none d-lg-block d-md-block">
+                    <p class="h4 m-2 text-white">Homework : Do you best </p>
+
+                    <table class="table table-borderless table-responsive-lg table-responsive-md">
+                        <thead>
+                            <tr>
+                                <th>Lesson</th>
+                                <th>Homework</th>
+                                <th>Time</th>
+                                <th class="d-none d-lg-block ">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Math</td>
+                                <td>Do page 26 , 27 , 28</td>
+                                <td>Monday, 10:00 AM - Tuesday, 11:00 AM</td>
+                                <td class="d-flex justify-content-end align-items-center d-none d-lg-flex "><button class="btn btn-success me-3" data-bs-toggle="modal" data-bs-target="#upload-homework-desktop-modal">Upload</button>
+                                    <button data-bs-toggle="collapse" data-bs-target="#collapse-row-homework-math" class="btn btn-primary">info</button>
+                                </td>
+
+                            </tr>
+                            <tr id="collapse-row-homework-math" class="collapse table-secondary">
+
+                                <td><i class="fa-solid fa-angles-right"></i> Use a consistent unit for time measurements.
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Biology</td>
+                                <td>Make a lecture about brain</td>
+                                <td>Wednesday, 2:00 PM - Friday, 4:00 PM</td>
+                                <td class="d-flex justify-content-end align-items-center d-none d-lg-flex"><button class="btn btn-success me-3" data-bs-toggle="modal" data-bs-target="#upload-homework-desktop-modal">Upload</button>
+                                    <button data-bs-toggle="collapse" data-bs-target="#collapse-row-homework-art" class="btn btn-primary ">info</button>
+                                </td>
+
+                            </tr>
+                            <tr id="collapse-row-homework-art" class="collapse table-secondary">
+
+                                <td><i class="fa-solid fa-angles-right"></i> Practice your delivery beforehand. </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Art</td>
+                                <td>Draw a bottle</td>
+                                <td>Monday, 9:00 AM - Monday, 11:00 AM</td>
+                                <td class="d-flex justify-content-end align-items-center d-none d-lg-flex"><button class="btn btn-success me-3" data-bs-toggle="modal" data-bs-target="#upload-homework-desktop-modal">Upload</button>
+                                    <button data-bs-toggle="collapse" data-bs-target="#collapse-row-homework-biology" class="btn btn-primary ">info</button>
+                                </td>
+
+                            </tr>
+                            <tr id="collapse-row-homework-biology" class="collapse table-secondary">
+
+                                <td><i class="fa-solid fa-angles-right"></i> Use reference images , be patient </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--homework section end desktop-->
+
+    <!--homework section start desktop phone -->
+
+    <section id="homework-section" class="mt-5">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-dark rounded pb-2 d-block d-lg-none d-md-none">
+                    <p class="h4 m-2 text-white">Homework : Do you best </p>
+
+                    <div id="homework-collapse-phone">
+
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="btn" data-bs-toggle="collapse" href="#Math-homework-collapse-phone">
+                                Math : Do pages 26 , 27 , 28
+                            </a>
+                            </div>
+                            <div id="Math-homework-collapse-phone" class="collapse show" data-bs-parent="#homework-collapse-phone">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center col-12">
+                                        <p>Monday, 10:00 AM - Tuesday, 11:00 AM</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#biology-homework-collapse-phone">
+                                Biology : Make a lecture about brain
+                            </a>
+                            </div>
+                            <div id="biology-homework-collapse-phone" class="collapse" data-bs-parent="#homework-collapse-phone">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center col-12">
+                                        <p>Wednesday, 2:00 PM - Friday, 4:00 PM</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#Art-homework-collapse-phone">
+                                Art : Draw  a bottle 
+                            </a>
+                            </div>
+                            <div id="Art-homework-collapse-phone" class="collapse" data-bs-parent="#homework-collapse-phone">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center col-12">
+                                        <p>Monday, 9:00 AM - Monday, 11:00 AM</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-success col-12 mt-3" class="collapse show" data-bs-toggle="modal" data-bs-target="#upload-homework-desktop-modal">Upload</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--homework section end phone version -->
+
+
+    <!-- report Card start -->
+
+    <section id="class-timetable" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-dark rounded pb-2">
+                    <p class="h4 m-2 text-white">Report Card : Good job</p>
+
+                    <div class="col-12">
+
+                        <table class="table table-borderless table-hover table-responsive">
+                            <thead>
+                                <tr>
+                                    <th>Subjects</th>
+                                    <th>
+                                        <span class="d-none d-sm-block d-md-block d-lg-block ">1st Term</span>
+                                        <span class="d-block d-sm-block d-md-block d-lg-none">1st T</span>
+                                    </th>
+                                    <th>
+                                        <span class="d-none d-sm-block d-md-block d-lg-block ">2st Term</span>
+                                        <span class="d-block d-sm-block d-md-block d-lg-none">2st T</span>
+                                    </th>
+                                    <th>Total</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Art</td>
+                                    <td>14.2</td>
+                                    <td>18.0</td>
+                                    <td>16.1</td>
+                                    <td class="ps-4">A</td>
+                                </tr>
+                                <tr>
+                                    <td>Math</td>
+                                    <td>14.5</td>
+                                    <td>15.6</td>
+                                    <td>15.05</td>
+                                    <td class="ps-4">B</td>
+                                </tr>
+                                <tr>
+                                    <td>Geography</td>
+                                    <td>19.0</td>
+                                    <td>18.6</td>
+                                    <td>18.8</td>
+                                    <td class="ps-4">B-</td>
+                                </tr>
+                                <tr>
+                                    <td>Physic</td>
+                                    <td>18.3</td>
+                                    <td>15.6</td>
+                                    <td>16.95</td>
+                                    <td class="ps-4">C+</td>
+                                </tr>
+                                <tr>
+                                    <td>history</td>
+                                    <td>18.4</td>
+                                    <td>15.8</td>
+                                    <td>17.1</td>
+                                    <td class="ps-4">D</td>
+                                </tr>
+                                <tr>
+                                    <td>technology</td>
+                                    <td>17.6</td>
+                                    <td>18.1</td>
+                                    <td>17.85</td>
+                                    <td class="ps-4">F</td>
+                                </tr>
+                                <tr>
+                                    <td>graphic</td>
+                                    <td>17.6</td>
+                                    <td>16.8</td>
+                                    <td>17.2</td>
+                                    <td class="ps-4">A-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button class="btn btn-success col-12" data-bs-toggle="modal" data-bs-target="#Report-card-export-modal">Export</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- report Card end -->
+
+    <!-- footer start -->
+    <section id="footer" class="mt-5">
+        <footer class="text-center text-lg-start text-white bg-dark">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-between p-4 bg-primary">
+                <!-- Left -->
+                <div class="me-5">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="#" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-white me-4 text-decoration-none">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold">School Tracker</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto custom-under-line" />
+                            <p>
+                                comprehensive online platform designed to help students efficiently plan and track their study routines.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Sections</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto custom-under-line" />
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">Study chart</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">Class timetable</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">Homeworks</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">Report card</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Useful links</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto custom-under-line" />
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">Your Account</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">Your ID number</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">University site</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white text-decoration-none">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto custom-under-line" />
+                            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                            <p><i class="fas fa-envelope mr-3"></i> SchoolTracker@Yahoo.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3 custom-bg">
+                © 2025 Copyright:
+                <a class="text-white " href="https://mdbootstrap.com/"> SchoolTracker.com</a
+        >
+    </div>
+    <!-- Copyright -->
+</footer>
+    </section>
+
+
+
+    <!--footer end-->
+
+
+
+
+
+
+
+    <!-------------------------------------------------------------------->
+
+    <!--profile offcanvas start-->
+    <div class="offcanvas offcanvas-end" id="offcanvas-header-profile">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title">Student's Profile
+            </h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="Images/Avatar/undraw_undraw_undraw_undraw_businessman_e7v0_qrld_-1-_hvmv_-1-_ik9c.svg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text">Tags :</p>
+                    <div class=" d-flex justify-content-around flex-wrap align-content-center mb-3 ">
+                        <span class="card-text badge bg-secondary">Grade 4</span>
+                        <span class="card-text badge bg-secondary">Class : C</span>
+                        <span class="card-text badge bg-secondary">Active</span>
+                        <span class="card-text badge bg-secondary">Observant</span>
+                    </div>
+                    <p class="card-text">Social media :</p>
+                    <div class=" d-flex  flex-wrap mb-3 ">
+                        <a href="#" class="btn btn-primary m-2"><span class="fa-brands fa-instagram"></span>&nbsp;&nbsp;Instagram</a>
+                <a href="#" class="btn btn-primary m-2"><span class="fa-brands fa-github"></span>&nbsp;&nbsp;Github</a>
+                <a href="#" class="btn btn-primary m-2"><span class="fa-brands fa-whatsapp"></span>&nbsp;&nbsp;Whatsapp</a>
+                <a href="#" class="btn btn-primary m-2"><span class="fa-brands fa-linkedin"></span>&nbsp;&nbsp;Linkedin</a>
+            </div>
+            <p class="card-text">Specifications :</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Name: John Doe</li>
+                <li class="list-group-item">Grade Level: 10th</li>
+                <li class="list-group-item">Date of Birth: August 12, 2006</li>
+                <li class="list-group-item">Address: 123 Main St, Anytown, USA</li>
+                <li class="list-group-item">Phone Number: 555-555-5555</li>
+                <li class="list-group-item">Interests: Basketball, Reading, Music</li>
+            </ul>
+            <button class="btn btn-success w-100 mt-2">Edit Profile</button>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <!--profile offcanvas end-->
+            <!-------------------------------------------------------------------->
+            <!--Header Exit modal start-->
+
+            <!-- The Modal -->
+            <div class="modal fade" id="Exit-btn">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Are You Sure ?</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p class="lead h4">Attention : Are you sure you want to sign out ? Any unsaved work will be lost .</p>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Sign out</button>
+                            <button type="button" class="btn bg-secondary text-white" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Header Exit modal end-->
+
+            <!-- Study chart script start-->
+
+            <script>
+                const ctx2 = document.getElementById('study-chart');
+
+                new Chart(ctx2, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+                        datasets: [{
+                            label: 'Study per hour',
+                            data: [12, 19, 3, 5, 2, 4, 8],
+                            borderWidth: 1
+                        }, {
+                            label: 'Breaks per hour',
+                            data: [2, 9, 5, 5, 12, 3, 12],
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            </script>
+
+
+            <!-- Study chart script end -->
+
+            <!-- study chart export modal start -->
+
+
+            <!-- The Modal -->
+            <div class="modal fade" id="study-chart-export-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Export Study chart</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img src="data/Study chart Export.jpg" alt="" class="img-fluid">
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer btn-group">
+                            <button type="button" class="btn btn-success text-dark " data-bs-dismiss="modal">Download</button>
+                            <button type="button" class="btn btn-danger text-dark" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- study chart export modal end -->
+
+
+            <!-- Class time table export modal start -->
+
+            <!-- The Modal -->
+            <div class="modal fade" id="class-timetable-export-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Export class timetable</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <table class="table table-bordered table-hover table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Teacher</th>
+                                        <th>Day</th>
+                                        <th>Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Art</td>
+                                        <td>Ms. Rachel Thom</td>
+                                        <td>Monday</td>
+                                        <td>6:14 AM</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Math</td>
+                                        <td>Mr. Ethan Patel</td>
+                                        <td>Tuesday</td>
+                                        <td>7:42 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Geography</td>
+                                        <td>Ms. Sophia Rodrig</td>
+                                        <td>Wednesday</td>
+                                        <td>5:18 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Physic</td>
+                                        <td>Mr. Liam Chen</td>
+                                        <td>Thursday</td>
+                                        <td>8:05 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>history</td>
+                                        <td>Ms. Ava Lee</td>
+                                        <td>Friday</td>
+                                        <td>6:50 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>technology</td>
+                                        <td>Ms. Emily Patel</td>
+                                        <td>Saturday</td>
+                                        <td>9:21 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>graphic design</td>
+                                        <td>Mr. Julian Sanchez</td>
+                                        <td>Sunday</td>
+                                        <td>7:03 AM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer btn-group">
+                            <button type="button" class="btn btn-success text-dark " data-bs-dismiss="modal">Download</button>
+                            <button type="button" class="btn btn-danger text-dark" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Class time table export modal end -->
+
+
+            <!-- Upload Homework desktop modal start-->
+
+            <!-- Button to Open the Modal -->
+
+            <!-- The Modal -->
+            <div class="modal fade" id="upload-homework-desktop-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Upload images</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img src="Images/Template/upload.jpg" alt="Upload" class="img-fluid cursor-pointer">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Upload Homework desktop modal end -->
+
+
+            <!-- Export Report card modal start -->
+
+            <div class="modal fade" id="Report-card-export-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Export class timetable</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <table class="table table-borderless table-hover table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th>Subjects</th>
+                                        <th>
+                                            <span class="d-none d-sm-block d-md-block d-lg-block ">1st Term</span>
+                                            <span class="d-block d-sm-block d-md-block d-lg-none">1st T</span>
+                                        </th>
+                                        <th>
+                                            <span class="d-none d-sm-block d-md-block d-lg-block ">2st Term</span>
+                                            <span class="d-block d-sm-block d-md-block d-lg-none">2st T</span>
+                                        </th>
+                                        <th>Total</th>
+                                        <th>Grade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Art</td>
+                                        <td>14.2</td>
+                                        <td>18.0</td>
+                                        <td>16.1</td>
+                                        <td class="ps-4">A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Math</td>
+                                        <td>14.5</td>
+                                        <td>15.6</td>
+                                        <td>15.05</td>
+                                        <td class="ps-4">B</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Geography</td>
+                                        <td>19.0</td>
+                                        <td>18.6</td>
+                                        <td>18.8</td>
+                                        <td class="ps-4">B-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Physic</td>
+                                        <td>18.3</td>
+                                        <td>15.6</td>
+                                        <td>16.95</td>
+                                        <td class="ps-4">C+</td>
+                                    </tr>
+                                    <tr>
+                                        <td>history</td>
+                                        <td>18.4</td>
+                                        <td>15.8</td>
+                                        <td>17.1</td>
+                                        <td class="ps-4">D</td>
+                                    </tr>
+                                    <tr>
+                                        <td>technology</td>
+                                        <td>17.6</td>
+                                        <td>18.1</td>
+                                        <td>17.85</td>
+                                        <td class="ps-4">F</td>
+                                    </tr>
+                                    <tr>
+                                        <td>graphic</td>
+                                        <td>17.6</td>
+                                        <td>16.8</td>
+                                        <td>17.2</td>
+                                        <td class="ps-4">A-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer btn-group">
+                            <button type="button" class="btn btn-success text-dark " data-bs-dismiss="modal">Download</button>
+                            <button type="button" class="btn btn-danger text-dark" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Export Report card modal end -->
+
+
+</body>
+
+</html>
